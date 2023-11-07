@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-c4ja
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-aayy-tenant/test-app-nxke/devfile-sample-python-basic-c4ja@sha256:0b357a145a903dabc387f73dbe0e198cb3f8cc3e25b05123e63aabede7dcaa9d
+        name: my-python
+        resources: {}
+status: {}
